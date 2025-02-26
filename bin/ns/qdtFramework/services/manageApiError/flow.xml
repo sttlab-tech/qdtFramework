@@ -919,7 +919,7 @@
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">qdtContactManagement.api.ContactManagementAPI_.docTypes:Error</value>
+            <value name="rec_ref">sttContactManagement.api.ContactManagementAPI_.docTypes:Error</value>
           </record>
         </array>
         <value name="modifiable">true</value>
@@ -1071,7 +1071,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/error;4;0;qdtContactManagement.api.ContactManagementAPI_.docTypes:Error" TO="/409;2;0/Error;4;0;qdtContactManagement.api.ContactManagementAPI_.docTypes:Error">
+<MAPCOPY FROM="/error;4;0;sttContactManagement.api.ContactManagementAPI_.docTypes:Error" TO="/409;2;0/Error;4;0;sttContactManagement.api.ContactManagementAPI_.docTypes:Error">
 </MAPCOPY>
 </MAP>
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT></COMMENT>
 
   <!-- nodes -->
 
@@ -650,7 +651,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/event;4;0;qdtContactManagement.docTypes.events:ContactUpdate" TO="/document;2;0">
+<MAPCOPY FROM="/event;4;0;sttContactManagement.docTypes.events:ContactUpdate" TO="/document;2;0">
 </MAPCOPY>
 </MAP>
 
@@ -849,7 +850,7 @@
 
   <!-- nodes -->
 
-<MAPDELETE FIELD="/event;4;0;qdtContactManagement.docTypes.events:ContactUpdate">
+<MAPDELETE FIELD="/event;4;0;sttContactManagement.docTypes.events:ContactUpdate">
 </MAPDELETE>
 
 <MAPDELETE FIELD="/document;2;0">

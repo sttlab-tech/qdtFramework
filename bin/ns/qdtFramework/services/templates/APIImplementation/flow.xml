@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <FLOW VERSION="3.0" CLEANUP="true">
+  <COMMENT>Initializations</COMMENT>
 
   <!-- nodes -->
 
@@ -1449,7 +1450,7 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">qdtContactManagement.api.ContactManagementAPI_.docTypes:Error</value>
+        <value name="rec_ref">sttContactManagement.api.ContactManagementAPI_.docTypes:Error</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
@@ -1493,7 +1494,7 @@
 
   <!-- nodes -->
 
-<MAPDELETE FIELD="/error;4;0;qdtContactManagement.api.ContactManagementAPI_.docTypes:Error">
+<MAPDELETE FIELD="/error;4;0;sttContactManagement.api.ContactManagementAPI_.docTypes:Error">
 </MAPDELETE>
 
 <MAPDELETE FIELD="/thisService;1;0">
